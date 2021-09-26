@@ -17,9 +17,13 @@
     grid-row: 1;
     z-index: 1;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 3.5rem;
+    font-size: 3rem;
     animation: glows 2s ease-in-out infinite alternate;
-    text-align: center;
+    text-align: left;
+    display: inline-block;
+    word-break: break-word; 
+    line-height: 1.1;
+    letter-spacing: 2px;
 }
   
   @keyframes glows {
@@ -40,9 +44,13 @@
     grid-row: 1;
     z-index: 1;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 3.5rem;
+    font-size: 3rem;
     animation: glow 2s ease-in-out infinite alternate;
-    text-align: center;
+    text-align: right;
+    display: inline-block;
+    word-break: break-word;
+    line-height: 1.1;
+    letter-spacing: 2px;
 }
   
   @keyframes glow {
@@ -346,4 +354,3 @@
   .cybr-btn:nth-of-type(2) {
     --primary-hue: 260;
   }
-
